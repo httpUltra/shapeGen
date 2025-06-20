@@ -1,0 +1,59 @@
+body {
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(49, 70, 88);
+}
+
+@property --width {
+
+}
+
+
+
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+    justify-content: space-evenly;
+}
+
+.text {
+    border: none;
+    outline: none;
+    resize: none;
+    border-style: inset;
+}
+
+#canvas {
+    
+    display: flex;
+    border: solid black 5px;
+    border-width: 5px;
+    height: 400px;
+    justify-content: center;
+    
+}
+
+#lengthTest{
+    border: solid 2px rgb(255, 0, 0);
+    height: 0px;
+    width: 0px;
+    padding: 0px;
+    
+}
+
+#widthDiv{
+    border: solid 2px green;
+    height: 0px;
+    width: 2px;
+    padding: 0px;
+}
+
+#heightTest {
+    border: solid 2px red;
+    height: 0px;
+    width: 0px;
+    padding: 0px;
+}
